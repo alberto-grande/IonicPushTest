@@ -14,3 +14,7 @@ Requirements:
 For simpleServer node-gcm is required:
 
 	$ npm install node-gcm
+
+Simpleserver docker execution:
+
+	$ docker run -it --rm --name testnode -v "$PWD":/usr/src/myapp -w /usr/src/myapp node:0.12.7 node sendGCM.js
