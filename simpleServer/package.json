@@ -1,0 +1,14 @@
+{
+    "name": "IonicPushTestSimpleServer",
+    "preferGlobal": true,
+    "version": "0.0.1",
+    "author": "Alberto Grande <alberto.grande@gmail.com>",
+    "description": "Simple server",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "dependencies": {
+        "node-gcm": "~0.10.0"
+    }
+}
