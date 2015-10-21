@@ -1,14 +1,18 @@
 # IonicPushTest
 Example project for push test using ionic.
 
-Requirements:
+On pushSample directory:
 
-	$ ionic plugin add cordova-plugin-console
-	$ ionic plugin add cordova-plugin-device
-	$ ionic plugin add cordova-plugin-dialogs
-	$ ionic plugin add cordova-plugin-file
-	$ ionic plugin add cordova-plugin-media
-	$ ionic plugin add https://github.com/phonegap-build/PushPlugin
+	$ ionic state restore
+
+Plugins dependencies:
+
+	cordova-plugin-console
+	cordova-plugin-device
+	cordova-plugin-dialogs
+	cordova-plugin-file
+	cordova-plugin-media
+	https://github.com/phonegap-build/PushPlugin
 
 
 For simpleServer node-gcm is required:
